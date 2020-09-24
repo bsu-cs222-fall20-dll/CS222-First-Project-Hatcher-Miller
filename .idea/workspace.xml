@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edd8efe9-58d7-48e1-9f90-8f6424d43ca1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/checkArticleExistence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/checkForConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/checkForRedirect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/displayRecentChanges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/displayUserWithMostChanges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/getArticleAuthors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/firstProjectTest/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/checkArticleExistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firstProject/checkArticleExistence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/checkForConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firstProject/checkForConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/checkForRedirect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firstProject/checkForRedirect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/displayRecentChanges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firstProject/displayRecentChanges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/displayUserWithMostChanges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firstProject/displayUserWithMostChanges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/getArticleAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firstProject/getArticleAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/getArticleAuthors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firstProject/getArticleAuthors.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +48,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="TJ Miller &lt;tmmiller3@bsu.edu&gt;" />
         <option value="Ethan Hatcher &lt;erhatcher@bsu.edu&gt;" />
       </list>
     </option>
@@ -66,8 +70,9 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/CS222-First-Project-Hatcher-Miller-Initial-Class-Creation" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -137,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600968882444</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added predetermined Classes">
+      <created>1600969651508</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600969651508</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +168,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Add Class Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Class Test" />
+    <MESSAGE value="Added predetermined Classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added predetermined Classes" />
   </component>
 </project>
