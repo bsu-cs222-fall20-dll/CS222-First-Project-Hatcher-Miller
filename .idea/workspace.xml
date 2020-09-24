@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edd8efe9-58d7-48e1-9f90-8f6424d43ca1" name="Default Changelist" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/checkArticleExistence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/checkForConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/checkForRedirect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/displayRecentChanges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/displayUserWithMostChanges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/getArticleAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/getArticleAuthors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/getAPITest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/checkArticleExistence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/checkForConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/checkForRedirect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/displayRecentChanges.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/displayUserWithMostChanges.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/getArticleAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/getArticleAuthors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/getAPITest.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,9 +69,11 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/CS222-First-Project-Hatcher-Miller-Initial-Class-Creation" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
