@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edd8efe9-58d7-48e1-9f90-8f6424d43ca1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/First Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/First Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/firstProject/Author.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/firstProjectTest/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/firstProjectTest/test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,8 +41,8 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="TJ Miller &lt;tmmiller3@bsu.edu&gt;" />
         <option value="Ethan Hatcher &lt;erhatcher@bsu.edu&gt;" />
+        <option value="TJ Miller &lt;tmmiller3@bsu.edu&gt;" />
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -157,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600974273948</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Properly added imports, acquired gson-2.6.2.jar library, cleaned up test file">
+      <created>1600975792707</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1600975792707</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,6 +185,7 @@
     <MESSAGE value="Added predetermined Classes" />
     <MESSAGE value="Fixed sources and added test class" />
     <MESSAGE value="Updated build.gradle, added .json samples, fixed directories" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated build.gradle, added .json samples, fixed directories" />
+    <MESSAGE value="Properly added imports, acquired gson-2.6.2.jar library, cleaned up test file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Properly added imports, acquired gson-2.6.2.jar library, cleaned up test file" />
   </component>
 </project>
