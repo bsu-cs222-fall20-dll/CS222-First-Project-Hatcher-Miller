@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edd8efe9-58d7-48e1-9f90-8f6424d43ca1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/firstProjectTest/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/sample.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/checkArticleExistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firstProject/checkArticleExistence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/checkForConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firstProject/checkForConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/checkForRedirect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firstProject/checkForRedirect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/displayRecentChanges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firstProject/displayRecentChanges.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/displayUserWithMostChanges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firstProject/displayUserWithMostChanges.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/getArticleAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firstProject/getArticleAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/getArticleAuthors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firstProject/getArticleAuthors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/firstProjectTest/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/firstProjectTest/test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600969651508</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Fixed sources and added test class">
+      <created>1600970459682</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600970459682</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,6 +172,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Add Class Test" />
     <MESSAGE value="Added predetermined Classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added predetermined Classes" />
+    <MESSAGE value="Fixed sources and added test class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed sources and added test class" />
   </component>
 </project>
