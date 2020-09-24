@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="edd8efe9-58d7-48e1-9f90-8f6424d43ca1" name="Default Changelist" comment="Initial commit" />
+    <list default="true" id="edd8efe9-58d7-48e1-9f90-8f6424d43ca1" name="Default Changelist" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/src/main/checkArticleExistence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/checkForConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/checkForRedirect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/displayRecentChanges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/displayUserWithMostChanges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/getArticleAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/getArticleAuthors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/getAPITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +38,13 @@
   <component name="FavoritesManager">
     <favorites_list name="untitled" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
@@ -44,7 +61,18 @@
     </option>
   </component>
   <component name="ProjectId" id="1hcaufU2fNt93e5pFZT7I1pONGg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -84,6 +112,19 @@
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
