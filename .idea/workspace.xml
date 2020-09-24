@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edd8efe9-58d7-48e1-9f90-8f6424d43ca1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/sample.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/First Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/First Project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/firstProjectTest/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/firstProjectTest/test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,7 +65,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/CS222-First-Project-Hatcher-Miller-Initial-Class-Creation" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/gson-2.6.2.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -152,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600970459682</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updated build.gradle, added .json samples, fixed directories">
+      <created>1600974273948</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1600974273948</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,6 +178,7 @@
     <MESSAGE value="Add Class Test" />
     <MESSAGE value="Added predetermined Classes" />
     <MESSAGE value="Fixed sources and added test class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed sources and added test class" />
+    <MESSAGE value="Updated build.gradle, added .json samples, fixed directories" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated build.gradle, added .json samples, fixed directories" />
   </component>
 </project>
