@@ -15,7 +15,7 @@ import java.io.InputStreamReader;
 import java.io.Reader;
 import java.util.Map;
 
-public class test {
+public class testReadJSON {
     @Test
     public void testJSON(){
         JsonParser parser = new JsonParser();
@@ -32,8 +32,9 @@ public class test {
         }
 
         for(JsonElement author:array){
-            author.getAsJsonObject().get("user");
-            author.getAsJsonObject().get("timestamp");
+            String user = author.getAsJsonObject().get("user").getAsString();
+            String timestamp = author.getAsJsonObject().get("timestamp").getAsString();
+            Author placeholder = new Author(user, timestamp);
         }
     }
 }
