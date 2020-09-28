@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="edd8efe9-58d7-48e1-9f90-8f6424d43ca1" name="Default Changelist" comment="Finished the URLConnection class. Next step is to make a URL search results class and a revision parser class.">
-      <change afterPath="$PROJECT_DIR$/.idea/CS222-First-Project-Hatcher-Miller.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firstProject/AuthorListParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="edd8efe9-58d7-48e1-9f90-8f6424d43ca1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/firstProject/DisplayRecentAuthors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/firstProject/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firstProject/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/firstProjectTest/testReadJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/firstProjectTest/testReadJSON.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,8 +41,8 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="TJ Miller &lt;tmmiller3@bsu.edu&gt;" />
         <option value="Ethan Hatcher &lt;erhatcher@bsu.edu&gt;" />
+        <option value="TJ Miller &lt;tmmiller3@bsu.edu&gt;" />
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -309,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601319842102</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Created AuthorListParser class, added getter methods to Author class">
+      <created>1601326237037</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1601326237037</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -337,7 +333,8 @@
     <MESSAGE value="Created and finished a test class to test URL connection and created an empty class for the URL connection that will be finished next." />
     <MESSAGE value="Finished the URLConnection class. Next step is to make a URL search results class and a revision parser class." />
     <MESSAGE value="Created and finished the Revision Parser and the URL search results classes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created and finished the Revision Parser and the URL search results classes." />
+    <MESSAGE value="Created AuthorListParser class, added getter methods to Author class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created AuthorListParser class, added getter methods to Author class" />
   </component>
   <component name="WindowStateProjectService">
     <state x="268" y="104" key="#testReadJSON.testJSON" timestamp="1601318216554">
