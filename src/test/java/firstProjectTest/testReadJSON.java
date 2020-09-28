@@ -1,16 +1,13 @@
 package firstProjectTest;
 
 import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
 import firstProject.Author;
-import org.junit.Assert;
 import org.junit.Test;
 
 import java.io.InputStream;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonParser;
-import org.junit.platform.engine.support.descriptor.FileSystemSource;
-
 import java.io.InputStreamReader;
 import java.io.Reader;
 import java.util.Map;

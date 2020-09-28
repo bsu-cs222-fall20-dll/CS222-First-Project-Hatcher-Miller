@@ -1,15 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="edd8efe9-58d7-48e1-9f90-8f6424d43ca1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/firstProjectTest/testRecentChanges.java" afterDir="false" />
+    <list default="true" id="edd8efe9-58d7-48e1-9f90-8f6424d43ca1" name="Default Changelist" comment="Created and finished a test class to test URL connection and created an empty class for the URL connection that will be finished next.">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/firstProject/URLConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/firstProjectTest/testURLConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/First Project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/untitled.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/untitled.test.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/firstProject/checkArticleExistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firstProject/checkArticleExistence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/firstProjectTest/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/firstProjectTest/testReadJSON.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/firstProjectTest/testReadJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/firstProjectTest/testReadJSON.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,8 +59,8 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="Ethan Hatcher &lt;erhatcher@bsu.edu&gt;" />
         <option value="TJ Miller &lt;tmmiller3@bsu.edu&gt;" />
+        <option value="Ethan Hatcher &lt;erhatcher@bsu.edu&gt;" />
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,11 +76,17 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/gson-2.6.2.jar!/" />
     <property name="project.structure.last.edited" value="Project" />
@@ -74,19 +94,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.testReadJSON.testJSON">
+  <component name="RunManager" selected="JUnit.testReadJSON">
     <configuration name="checkArticleExistence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="firstProject.checkArticleExistence" />
       <module name="First Project" />
@@ -100,8 +108,68 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testReadJSON.testJSON" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="First Project" />
+    <configuration name="testReadJSON" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;firstProjectTest.testReadJSON&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="testURLConnection" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;firstProjectTest.testURLConnection&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="testURLConnection.URLConnectionUserRevisionsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;firstProjectTest.testURLConnection.URLConnectionUserRevisionsTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="testReadJSON" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="untitled.test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="firstProjectTest.*" />
@@ -112,16 +180,32 @@
       <option name="MAIN_CLASS_NAME" value="firstProjectTest.testReadJSON" />
       <option name="METHOD_NAME" value="testJSON" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.testReadJSON.testJSON" />
+        <item itemvalue="JUnit.testReadJSON" />
+        <item itemvalue="Gradle.testReadJSON" />
+        <item itemvalue="Gradle.testURLConnection" />
+        <item itemvalue="Gradle.testURLConnection.URLConnectionUserRevisionsTest" />
         <item itemvalue="Application.checkArticleExistence" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -243,6 +327,33 @@
     <MESSAGE value="Properly added imports, acquired gson-2.6.2.jar library, cleaned up test file" />
     <MESSAGE value="Added Author class" />
     <MESSAGE value="Made some changes to Author to try to improve functionality and worked through test case to reach a point where we understand how to read and access the JSON file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made some changes to Author to try to improve functionality and worked through test case to reach a point where we understand how to read and access the JSON file" />
+    <MESSAGE value="Created and finished a test class to test URL connection and created an empty class for the URL connection that will be finished next." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created and finished a test class to test URL connection and created an empty class for the URL connection that will be finished next." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="268" y="104" key="#testReadJSON.testJSON" timestamp="1601318216554">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="268" y="104" key="#testReadJSON.testJSON/0.0.1536.864@0.0.1536.864" timestamp="1601318216554" />
+    <state x="28" y="28" key="CommitChangelistDialog2" timestamp="1601318447517">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="28" y="28" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1601318447517" />
+    <state width="1493" height="222" key="GridCell.Tab.0.bottom" timestamp="1601318301561">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="222" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1601318301561" />
+    <state width="1493" height="222" key="GridCell.Tab.0.center" timestamp="1601318301560">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="222" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1601318301560" />
+    <state width="1493" height="222" key="GridCell.Tab.0.left" timestamp="1601318301559">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="222" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1601318301559" />
+    <state width="1493" height="222" key="GridCell.Tab.0.right" timestamp="1601318301561">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="222" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1601318301561" />
   </component>
 </project>
