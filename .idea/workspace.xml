@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="edd8efe9-58d7-48e1-9f90-8f6424d43ca1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/firstProject/DisplayRecentAuthors.java" afterDir="false" />
+    <list default="true" id="edd8efe9-58d7-48e1-9f90-8f6424d43ca1" name="Default Changelist" comment="Created DisplayRecentAuthors class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/firstProject/DisplayMostFrequentAuthor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/firstProject/AuthorListParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firstProject/AuthorListParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/firstProject/DisplayRecentAuthors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firstProject/DisplayRecentAuthors.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -305,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601326237037</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Created DisplayRecentAuthors class">
+      <created>1601330629940</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1601330629940</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -334,7 +343,8 @@
     <MESSAGE value="Finished the URLConnection class. Next step is to make a URL search results class and a revision parser class." />
     <MESSAGE value="Created and finished the Revision Parser and the URL search results classes." />
     <MESSAGE value="Created AuthorListParser class, added getter methods to Author class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created AuthorListParser class, added getter methods to Author class" />
+    <MESSAGE value="Created DisplayRecentAuthors class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created DisplayRecentAuthors class" />
   </component>
   <component name="WindowStateProjectService">
     <state x="268" y="104" key="#testReadJSON.testJSON" timestamp="1601318216554">

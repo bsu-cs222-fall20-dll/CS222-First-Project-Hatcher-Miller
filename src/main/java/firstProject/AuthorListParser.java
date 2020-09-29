@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.Map;
 
 public class AuthorListParser {
-    public ArrayList parseJSON(){
+    public ArrayList<Author> parseJSON(){
         JsonParser parser = new JsonParser();
         InputStream inputStream = getClass().getClassLoader().getResourceAsStream("sample.json");
         Reader reader = new InputStreamReader(inputStream);
@@ -37,5 +37,6 @@ public class AuthorListParser {
         }
 
         return authorList;
+
     }
 }
