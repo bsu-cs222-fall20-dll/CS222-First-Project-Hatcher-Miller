@@ -9,6 +9,7 @@ import com.google.gson.JsonParser;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Map;
 
@@ -53,6 +54,16 @@ public class RevisionParser {
             revisionArray = entryObject.getAsJsonArray("revisions");
         }
         return revisionArray;
+    }
+
+    private ArrayList<Revisions> createListOfRevisions(JsonArray revisionArray) {
+        for (JsonElement entry : revisionArray) {
+            String user = entry.getAsJsonObject().get("user").getAsString();
+            String timeStamp = entry.getAsJsonObject().get("timestamp").getAsString();
+            Revisions revision = new Revisions(user, timeStamp);
+            listOfRevisions.add(revision);
+        }
+        return listOfRevisions;
     }
 
     @SuppressWarnings("deprecation")
