@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="edd8efe9-58d7-48e1-9f90-8f6424d43ca1" name="Default Changelist" comment="Created DisplayRecentAuthors class">
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CS222-First-Project-Hatcher-Miller.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="edd8efe9-58d7-48e1-9f90-8f6424d43ca1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/bsu/cs222/Revisions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/firstProject/AuthorListParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firstProject/AuthorListParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/firstProjectTest/testURLConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/firstProjectTest/testURLConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/bsu/cs222/RevisionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/bsu/cs222/RevisionParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/bsu/cs222/URLSearchResults.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/bsu/cs222/URLSearchResults.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +42,8 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="Ethan Hatcher &lt;erhatcher@bsu.edu&gt;" />
         <option value="TJ Miller &lt;tmmiller3@bsu.edu&gt;" />
+        <option value="Ethan Hatcher &lt;erhatcher@bsu.edu&gt;" />
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -329,7 +320,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601330629940</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Updated build.gradle, changed package name to edu.bsu.cs222">
+      <created>1601923676884</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1601923676884</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Added a project summary to the readme.md file">
+      <created>1601923823140</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1601923823140</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -359,17 +364,19 @@
     <MESSAGE value="Created and finished the Revision Parser and the URL search results classes." />
     <MESSAGE value="Created AuthorListParser class, added getter methods to Author class" />
     <MESSAGE value="Created DisplayRecentAuthors class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created DisplayRecentAuthors class" />
+    <MESSAGE value="Updated build.gradle, changed package name to edu.bsu.cs222" />
+    <MESSAGE value="Added a project summary to the readme.md file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a project summary to the readme.md file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="268" y="104" key="#testReadJSON.testJSON" timestamp="1601318216554">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="268" y="104" key="#testReadJSON.testJSON/0.0.1536.864@0.0.1536.864" timestamp="1601318216554" />
-    <state x="28" y="28" key="CommitChangelistDialog2" timestamp="1601319841484">
+    <state x="28" y="28" key="CommitChangelistDialog2" timestamp="1601923822617">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="28" y="28" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1601319841484" />
+    <state x="28" y="28" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1601923822617" />
     <state width="1493" height="262" key="GridCell.Tab.0.bottom" timestamp="1601923154772">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -386,9 +393,13 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="262" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1601923154772" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1601319847155">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1601923824923">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1601319847155" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1601923824923" />
+    <state x="475" y="62" key="refactoring.ChangeSignatureDialog" timestamp="1601925085711">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="475" y="62" key="refactoring.ChangeSignatureDialog/0.0.1536.864@0.0.1536.864" timestamp="1601925085711" />
   </component>
 </project>
