@@ -11,6 +11,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
+import java.util.ArrayList;
 import java.util.Map;
 
 public class testURLConnection {
@@ -28,12 +29,13 @@ public class testURLConnection {
         JsonObject rootObject = rootElement.getAsJsonObject();
         JsonObject pages = rootObject.getAsJsonObject("query").getAsJsonObject("pages");
         JsonArray array = null;
-        for(Map.Entry<String,JsonElement> entry : pages.entrySet()) {
+        for (Map.Entry<String, JsonElement> entry : pages.entrySet()) {
             JsonObject entryObject = entry.getValue().getAsJsonObject();
             array = entryObject.getAsJsonArray("revisions");
         }
         System.out.println(array.get(0).getAsJsonObject().get("user").getAsString());
     }
+
     @SuppressWarnings("deprecation")
     @Test
     public void URLTimeStampConnectionRevisionTest() throws IOException {
@@ -48,7 +50,7 @@ public class testURLConnection {
         JsonObject rootObject = rootElement.getAsJsonObject();
         JsonObject pages = rootObject.getAsJsonObject("query").getAsJsonObject("pages");
         JsonArray array = null;
-        for(Map.Entry<String,JsonElement> entry : pages.entrySet()) {
+        for (Map.Entry<String, JsonElement> entry : pages.entrySet()) {
             JsonObject entryObject = entry.getValue().getAsJsonObject();
             array = entryObject.getAsJsonArray("revisions");
         }

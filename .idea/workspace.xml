@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edd8efe9-58d7-48e1-9f90-8f6424d43ca1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/bsu/cs222/Revisions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/bsu/cs222/RevisionsParserTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/bsu/cs222/RevisionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/bsu/cs222/RevisionParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/bsu/cs222/URLSearchResults.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/bsu/cs222/URLSearchResults.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/bsu/cs222/testURLConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/bsu/cs222/testURLConnection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testReadJSON" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RevisionsParserTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;firstProjectTest.testReadJSON&quot;" />
+        <option name="scriptParameters" value="--tests &quot;edu.bsu.cs222.RevisionsParserTests&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -116,7 +120,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;firstProjectTest.testURLConnection&quot;" />
+        <option name="scriptParameters" value="--tests &quot;edu.bsu.cs222.testURLConnection&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -131,12 +135,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="testURLConnection.URLTimeStampConnectionRevisionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="testURLConnection.RevisionsParserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;firstProjectTest.testURLConnection.URLTimeStampConnectionRevisionTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;edu.bsu.cs222.testURLConnection.RevisionsParserTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -171,10 +175,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.testURLConnection" />
+        <item itemvalue="Gradle.RevisionsParserTests" />
+        <item itemvalue="Gradle.testURLConnection.RevisionsParserTest" />
+        <item itemvalue="Gradle.testURLConnection" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.testReadJSON" />
-        <item itemvalue="Gradle.testReadJSON" />
-        <item itemvalue="Gradle.testURLConnection.URLTimeStampConnectionRevisionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -334,7 +338,35 @@
       <option name="project" value="LOCAL" />
       <updated>1601923823140</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Added revisions class">
+      <created>1601926404960</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1601926404960</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Edited RevisionParser class to match up in functionality with Revisions class">
+      <created>1601926458467</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1601926458467</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Updated URLSearchResults class to function properly with Revisions class and RevisionParser class changes">
+      <created>1601926512705</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1601926512705</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Fixed an issue with the RevisionParser class by adding the array list that I forgot to add">
+      <created>1601927500263</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1601927500263</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -366,37 +398,41 @@
     <MESSAGE value="Created DisplayRecentAuthors class" />
     <MESSAGE value="Updated build.gradle, changed package name to edu.bsu.cs222" />
     <MESSAGE value="Added a project summary to the readme.md file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a project summary to the readme.md file" />
+    <MESSAGE value="Added revisions class" />
+    <MESSAGE value="Edited RevisionParser class to match up in functionality with Revisions class" />
+    <MESSAGE value="Updated URLSearchResults class to function properly with Revisions class and RevisionParser class changes" />
+    <MESSAGE value="Fixed an issue with the RevisionParser class by adding the array list that I forgot to add" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed an issue with the RevisionParser class by adding the array list that I forgot to add" />
   </component>
   <component name="WindowStateProjectService">
     <state x="268" y="104" key="#testReadJSON.testJSON" timestamp="1601318216554">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="268" y="104" key="#testReadJSON.testJSON/0.0.1536.864@0.0.1536.864" timestamp="1601318216554" />
-    <state x="28" y="28" key="CommitChangelistDialog2" timestamp="1601926457926">
+    <state x="28" y="28" key="CommitChangelistDialog2" timestamp="1601927499649">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="28" y="28" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1601926457926" />
-    <state width="1493" height="262" key="GridCell.Tab.0.bottom" timestamp="1601923154772">
+    <state x="28" y="28" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1601927499649" />
+    <state width="1493" height="256" key="GridCell.Tab.0.bottom" timestamp="1601927853885">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="262" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1601923154772" />
-    <state width="1493" height="262" key="GridCell.Tab.0.center" timestamp="1601923154772">
+    <state width="1493" height="256" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1601927853885" />
+    <state width="1493" height="256" key="GridCell.Tab.0.center" timestamp="1601927853885">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="262" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1601923154772" />
-    <state width="1493" height="262" key="GridCell.Tab.0.left" timestamp="1601923154771">
+    <state width="1493" height="256" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1601927853885" />
+    <state width="1493" height="256" key="GridCell.Tab.0.left" timestamp="1601927853885">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="262" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1601923154771" />
-    <state width="1493" height="262" key="GridCell.Tab.0.right" timestamp="1601923154772">
+    <state width="1493" height="256" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1601927853885" />
+    <state width="1493" height="256" key="GridCell.Tab.0.right" timestamp="1601927853885">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="262" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1601923154772" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1601926461537">
+    <state width="1493" height="256" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1601927853885" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1601927502216">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1601926461537" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1601927502216" />
     <state x="475" y="62" key="refactoring.ChangeSignatureDialog" timestamp="1601925085711">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
