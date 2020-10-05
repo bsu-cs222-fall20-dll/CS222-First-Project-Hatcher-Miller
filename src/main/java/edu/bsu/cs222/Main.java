@@ -1,4 +1,4 @@
-package firstProject;
+package edu.bsu.cs222;
 
 import java.net.URL;
 

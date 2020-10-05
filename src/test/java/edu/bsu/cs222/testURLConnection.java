@@ -1,10 +1,9 @@
-package firstProjectTest;
+package edu.bsu.cs222;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import jdk.nashorn.internal.parser.JSONParser;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;

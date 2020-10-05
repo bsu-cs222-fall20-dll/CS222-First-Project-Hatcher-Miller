@@ -1,8 +1,6 @@
-package firstProject;
+package edu.bsu.cs222;
 
-import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
 
 public class DisplayRecentAuthors extends AuthorListParser{
     public void displayAuthors(){
