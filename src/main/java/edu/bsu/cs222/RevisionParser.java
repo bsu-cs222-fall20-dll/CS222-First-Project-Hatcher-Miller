@@ -13,18 +13,62 @@ import java.util.ArrayList;
 import java.util.Map;
 
 public class RevisionParser {
+    ArrayList<Revisions> listOfRevisions = new ArrayList<>();
+    public ArrayList<Revisions> FullListOfRevisions(InputStream inputStream) {
+        //InputStream inputStream2 = inputStream;
+        JsonElement rootElement = getRootElement(inputStream);
+        tryRedirect(rootElement);
+
+        try {
+            JsonObject pages = createJsonParser(rootElement);
+            //checkForRedirects(inputStream);
+            JsonArray revisionArray = createJsonArray(pages);
+            listOfRevisions = createListOfRevisions(revisionArray);
+            return listOfRevisions;
+        }catch(Exception e){
+            e.printStackTrace();
+            System.out.println("Page was not found");
+            return null;
+        }
+    }
+
     @SuppressWarnings("deprecation")
-    public ArrayList<JsonArray> FullListOfRevisions(InputStream inputStream) {
-        Reader reader = new InputStreamReader(inputStream);
+    private JsonElement getRootElement(InputStream inputStream) {
         JsonParser parser = new JsonParser();
+        Reader reader = new InputStreamReader(inputStream);
         JsonElement rootElement = parser.parse(reader);
+        return rootElement;
+    }
+
+    private JsonObject createJsonParser(JsonElement rootElement) {
         JsonObject rootObject = rootElement.getAsJsonObject();
         JsonObject pages = rootObject.getAsJsonObject("query").getAsJsonObject("pages");
-        ArrayList<JsonArray> ListOfRevisions = new ArrayList<>();
-        for(Map.Entry<String,JsonElement> entry : pages.entrySet()) {
+        return pages;
+    }
+
+    private JsonArray createJsonArray(JsonObject pages) {
+        JsonArray revisionArray = null;
+        for (Map.Entry<String, JsonElement> entry : pages.entrySet()) {
             JsonObject entryObject = entry.getValue().getAsJsonObject();
-            ListOfRevisions.add(entryObject.getAsJsonArray("revisions"));
+            revisionArray = entryObject.getAsJsonArray("revisions");
         }
-        return ListOfRevisions;
+        return revisionArray;
+    }
+
+    @SuppressWarnings("deprecation")
+    private void checkForRedirects(JsonElement rootElement) {
+        JsonObject rootObject = rootElement.getAsJsonObject();
+        JsonObject redirects = rootObject.getAsJsonObject("query").getAsJsonArray("redirects").get(0).getAsJsonObject();
+        String from = redirects.get("from").getAsString();
+        String to = redirects.get("to").getAsString();
+        System.out.println("From: " + from + "\nTo: " + to + "\n");
+    }
+
+    private void tryRedirect(JsonElement rootElement) {
+        try{
+            checkForRedirects(rootElement);
+        }catch(Exception f){
+            System.out.println("here");
+        }
     }
 }
