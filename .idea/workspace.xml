@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="edd8efe9-58d7-48e1-9f90-8f6424d43ca1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/bsu/cs222/MainJFX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/bsu/cs222/TestJFX.java" afterDir="false" />
+    <list default="true" id="edd8efe9-58d7-48e1-9f90-8f6424d43ca1" name="Default Changelist" comment="Added MainJFX class, began working on getting program to function with GUI">
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/bsu/cs222/AuthorListParser.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/bsu/cs222/DisplayMostFrequentAuthor.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/bsu/cs222/DisplayRecentAuthors.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/bsu/cs222/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/bsu/cs222/MainJFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/bsu/cs222/MainJFX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/bsu/cs222/Menu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/bsu/cs222/RevisionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/bsu/cs222/RevisionParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/bsu/cs222/URLSearchResults.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -402,7 +400,28 @@
       <option name="project" value="LOCAL" />
       <updated>1601943475055</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Updated RevisionParser to function properly and add functionality requirements from iteration 1 rubric">
+      <created>1601943538512</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1601943538512</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Added Test class for JavaFX">
+      <created>1601943572625</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1601943572625</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Added MainJFX class, began working on getting program to function with GUI">
+      <created>1601943719764</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1601943719764</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -441,7 +460,10 @@
     <MESSAGE value="Made test for RevisionsParser, ensured proper test functionality by running" />
     <MESSAGE value="Updated URL Connection class, added jfx libraries for gui" />
     <MESSAGE value="Updated testURLConnection file to associate correctly with URL Connection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated testURLConnection file to associate correctly with URL Connection" />
+    <MESSAGE value="Updated RevisionParser to function properly and add functionality requirements from iteration 1 rubric" />
+    <MESSAGE value="Added Test class for JavaFX" />
+    <MESSAGE value="Added MainJFX class, began working on getting program to function with GUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added MainJFX class, began working on getting program to function with GUI" />
   </component>
   <component name="WindowStateProjectService">
     <state x="698" y="77" width="838" height="687" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601943194785">
@@ -456,10 +478,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="268" y="104" key="#testReadJSON.testJSON/0.0.1536.864@0.0.1536.864" timestamp="1601318216554" />
-    <state x="28" y="0" width="847" height="836" key="CommitChangelistDialog2" timestamp="1601943688736">
+    <state x="28" y="0" width="847" height="836" key="CommitChangelistDialog2" timestamp="1601943763632">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="28" y="0" width="847" height="836" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1601943688736" />
+    <state x="28" y="0" width="847" height="836" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1601943763632" />
     <state x="911" y="147" key="FileChooserDialogImpl" timestamp="1601941488144">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -484,10 +506,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="498" y="16" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1601941507751" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1601943573979">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1601943765733">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1601943573979" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1601943765733" />
     <state x="475" y="62" key="refactoring.ChangeSignatureDialog" timestamp="1601925085711">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
