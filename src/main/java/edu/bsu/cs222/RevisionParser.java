@@ -58,7 +58,7 @@ public class RevisionParser {
         return revisionArray;
     }
 
-    private ArrayList<Revisions> createListOfRevisions(JsonArray revisionArray)  throws ParseException{
+    private ArrayList<Revisions> createListOfRevisions(JsonArray revisionArray) {
         for (JsonElement entry : revisionArray) {
             String user = entry.getAsJsonObject().get("user").getAsString();
             String timeStamp = entry.getAsJsonObject().get("timestamp").getAsString();

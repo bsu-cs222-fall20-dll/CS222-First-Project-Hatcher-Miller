@@ -3,7 +3,6 @@ package edu.bsu.cs222;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
@@ -18,7 +17,6 @@ public class MainJFX extends Application {
     RevisionParser revisionParser = new RevisionParser();
     VBox parent = new VBox();
     TextField textField = new TextField();
-    ComboBox<String> revisionSelector = new ComboBox<>();
 
     public static void main(String[] args) { launch(args); }
 

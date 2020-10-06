@@ -34,6 +34,7 @@ public class RevisionsParserTests {
             revisionArray = entryObject.getAsJsonArray("revisions");
         }
         ArrayList<Revisions> listOfRevisions = new ArrayList<>();
+        assert revisionArray != null;
         for (JsonElement entry : revisionArray) {
             String user = entry.getAsJsonObject().get("user").getAsString();
             String timeStamp = entry.getAsJsonObject().get("timestamp").getAsString();

@@ -4,7 +4,6 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import edu.bsu.cs222.Author;
 import org.junit.Test;
 
 import java.io.InputStream;
@@ -14,10 +13,13 @@ import java.util.ArrayList;
 import java.util.Map;
 
 public class testReadJSON {
+
+    @SuppressWarnings("deprecation")
     @Test
     public void testJSON(){
         JsonParser parser = new JsonParser();
         InputStream inputStream = getClass().getClassLoader().getResourceAsStream("sample.json");
+        assert inputStream != null;
         Reader reader = new InputStreamReader(inputStream);
         JsonElement rootElement = parser.parse(reader);
         JsonObject rootObject = rootElement.getAsJsonObject();
@@ -31,6 +33,7 @@ public class testReadJSON {
 
         ArrayList<Author> authorList = new ArrayList<>();
 
+        assert array != null;
         for(JsonElement author:array){
             String user = author.getAsJsonObject().get("user").getAsString();
             String timestamp = author.getAsJsonObject().get("timestamp").getAsString();

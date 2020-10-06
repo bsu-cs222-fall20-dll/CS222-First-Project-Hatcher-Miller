@@ -32,6 +32,7 @@ public class testURLConnection {
             JsonObject entryObject = entry.getValue().getAsJsonObject();
             array = entryObject.getAsJsonArray("revisions");
         }
+        assert array != null;
         System.out.println(array.get(0).getAsJsonObject().get("user").getAsString());
     }
 
@@ -53,6 +54,7 @@ public class testURLConnection {
             JsonObject entryObject = entry.getValue().getAsJsonObject();
             array = entryObject.getAsJsonArray("revisions");
         }
+        assert array != null;
         System.out.println(array.get(0).getAsJsonObject().get("timestamp").getAsString());
     }
 }
