@@ -36,3 +36,30 @@ public class MainJFX extends Application {
         primaryStage.show();
     }
 
+    private void createSearchBox() {
+        HBox urlArea = new HBox(new Label("Search Term(s): "));
+        urlArea.getChildren().add(textField);
+        parent.getChildren().add(urlArea);
+    }
+
+    public void searchWikipedia(Button searchButton) {
+        searchButton.setOnAction(Event -> {
+            try{
+                URL url = urlConnection.insertInputToURLConverter(textField.getText());
+                ArrayList<Revisions> revisionList = revisionParser.FullListOfRevisions(urlConnection.acquireConnectionToWikipedia(url, parent), parent);
+                displayAllRevisions(revisionList);
+            }catch(Exception e) {
+                e.printStackTrace();
+            }
+        });
+    }
+
+    public void displayAllRevisions(ArrayList<Revisions> revisionList) {
+        if (revisionList != null) {
+            for (Revisions entry : revisionList) {
+                HBox revision = new HBox(new Label("User: " + entry.getUser() + "    TimeStamp: " + entry.getTimeStamp()));
+                parent.getChildren().add(revision);
+            }
+        }
+    }
+}
