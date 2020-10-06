@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="edu.bsu.cs222.TestJFX" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-05T23:09:54" hostname="LAPTOP-2AFHSF5A" time="0.024">
-  <properties/>
-  <testcase name="testNewScene()" classname="edu.bsu.cs222.TestJFX" time="0.024"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

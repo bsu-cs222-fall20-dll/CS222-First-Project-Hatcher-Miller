@@ -4,12 +4,12 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Assertions;
 
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
-import java.util.ArrayList;
 import java.util.Map;
 
 public class testReadJSON {
@@ -20,27 +20,31 @@ public class testReadJSON {
         JsonParser parser = new JsonParser();
         InputStream inputStream = getClass().getClassLoader().getResourceAsStream("sample.json");
         assert inputStream != null;
-        Reader reader = new InputStreamReader(inputStream);
+        InputStreamReader reader = new InputStreamReader(inputStream);
         JsonElement rootElement = parser.parse(reader);
         JsonObject rootObject = rootElement.getAsJsonObject();
         JsonObject pages = rootObject.getAsJsonObject("query").getAsJsonObject("pages");
         JsonArray array = null;
-
         for(Map.Entry<String,JsonElement> entry: pages.entrySet()){
             JsonObject entryObject = entry.getValue().getAsJsonObject();
             array = entryObject.getAsJsonArray("revisions");
         }
-
-        ArrayList<Author> authorList = new ArrayList<>();
-
         assert array != null;
-        for(JsonElement author:array){
-            String user = author.getAsJsonObject().get("user").getAsString();
-            String timestamp = author.getAsJsonObject().get("timestamp").getAsString();
-            Author placeholder = new Author(user, timestamp);
-            authorList.add(placeholder);
-        }
-        System.out.println(authorList);
-        System.out.println(authorList.get(0).getUser());
+        System.out.println(array.get(0).getAsJsonObject().get("user").getAsString());
+        Assertions.assertEquals(4, array.size());
+    }
+    @SuppressWarnings("deprecation")
+    @Test
+    public void testCountRedirects() {
+        JsonParser parser = new JsonParser();
+        InputStream inputStream = getClass().getClassLoader().getResourceAsStream("sample.json");
+        assert inputStream != null;
+        Reader reader = new InputStreamReader(inputStream);
+        JsonElement rootElement = parser.parse(reader);
+        JsonObject rootObject = rootElement.getAsJsonObject();
+        JsonArray redirects = rootObject.getAsJsonObject("query").getAsJsonArray("redirects");
+        JsonObject holder = redirects.get(redirects.size() - 1).getAsJsonObject();
+        String user = holder.get("to").getAsString();
+        Assertions.assertEquals("Frank Zappa", user);
     }
 }
